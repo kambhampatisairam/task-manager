@@ -26,7 +26,7 @@ const taskSchema = new mongoose.Schema(
   },
   {
     timestamps: true, // adds createdAt and updatedAt
-  }
+  },
 );
 
 module.exports = mongoose.model('Task', taskSchema);

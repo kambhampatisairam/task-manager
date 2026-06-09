@@ -10,7 +10,7 @@ export default {
       },
       colors: {
         ink: {
-          50:  '#f5f5f0',
+          50: '#f5f5f0',
           100: '#e8e8e0',
           200: '#d0d0c4',
           300: '#b0b0a0',
@@ -30,7 +30,7 @@ export default {
       animation: {
         'slide-in': 'slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
         'fade-up': 'fadeUp 0.4s cubic-bezier(0.16, 1, 0.3, 1)',
-        'pop': 'pop 0.2s cubic-bezier(0.16, 1, 0.3, 1)',
+        pop: 'pop 0.2s cubic-bezier(0.16, 1, 0.3, 1)',
       },
       keyframes: {
         slideIn: {

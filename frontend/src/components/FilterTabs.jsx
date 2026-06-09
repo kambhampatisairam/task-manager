@@ -20,9 +20,7 @@ export default function FilterTabs({ active, onChange, counts }) {
           {tab.label}
           <span
             className={`text-xs font-mono px-1.5 py-0.5 rounded-md ${
-              active === tab.value
-                ? 'bg-ink-900/20 text-ink-900'
-                : 'bg-ink-700/60 text-ink-500'
+              active === tab.value ? 'bg-ink-900/20 text-ink-900' : 'bg-ink-700/60 text-ink-500'
             }`}
           >
             {counts[tab.value]}

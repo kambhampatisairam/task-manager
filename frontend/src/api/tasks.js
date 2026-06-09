@@ -25,6 +25,5 @@ export const api = {
       body: JSON.stringify(payload),
     }),
 
-  deleteTask: (id) =>
-    request(`${BASE_URL}/${id}`, { method: 'DELETE' }),
+  deleteTask: (id) => request(`${BASE_URL}/${id}`, { method: 'DELETE' }),
 };

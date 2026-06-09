@@ -1,7 +1,7 @@
 export default function StatsBar({ tasks }) {
   const total = tasks.length;
   const done = tasks.filter((t) => t.completed).length;
-  const pending = total - done;
+  // const pending = total - done;
   const high = tasks.filter((t) => t.priority === 'high' && !t.completed).length;
   const pct = total ? Math.round((done / total) * 100) : 0;
 
